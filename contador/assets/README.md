@@ -1,1 +1,0 @@
-Los fondos se dibujan con CSS para que la página funcione sin recursos externos. Puedes guardar imágenes propias en esta carpeta y referenciarlas desde `css/style.css`.
