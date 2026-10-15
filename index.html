@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#100d26">
+	<meta name="description" content="Cuenta atrás de fans para el lanzamiento de Grand Theft Auto VI. No es una web oficial de Rockstar Games.">
+	<title>Vice City, en cuenta atrás | GTA VI</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/countdown.js" defer></script>
+</head>
+<body>
+	<main class="scene">
+		<div class="scene__sky" aria-hidden="true"></div>
+		<div class="scene__sun" aria-hidden="true"></div>
+		<div class="scene__horizon" aria-hidden="true"></div>
+		<div class="scene__grain" aria-hidden="true"></div>
+		<header class="topbar">
+			<a class="wordmark" href="#inicio" aria-label="Vice City, en cuenta atrás, inicio">
+				<span class="wordmark__mark" aria-hidden="true">VI</span>
+				<span class="wordmark__text">VICE CITY<br><span>COUNTDOWN</span></span>
+			</a>
+			<span class="fan-label"><span class="fan-label__dot"></span> PROYECTO DE FANS</span>
+		</header>
+		<section class="countdown" id="inicio" aria-labelledby="headline">
+			<p class="eyebrow"><span class="eyebrow__line"></span> UNA FECHA. TODO UN ESTADO MENTAL.</p>
+			<h1 id="headline">La espera<br>termina <span>en</span></h1>
+			<div class="timer" aria-label="Tiempo restante para el lanzamiento de GTA VI">
+				<div class="timer__unit"><span class="timer__value" id="days">---</span><span class="timer__label">días</span></div>
+				<span class="timer__separator" aria-hidden="true">:</span>
+				<div class="timer__unit"><span class="timer__value" id="hours">--</span><span class="timer__label">horas</span></div>
+				<span class="timer__separator" aria-hidden="true">:</span>
+				<div class="timer__unit"><span class="timer__value" id="minutes">--</span><span class="timer__label">minutos</span></div>
+				<span class="timer__separator timer__separator--seconds" aria-hidden="true">:</span>
+				<div class="timer__unit timer__unit--seconds"><span class="timer__value" id="seconds">--</span><span class="timer__label">segundos</span></div>
+			</div>
+			<p class="release-note" id="release-note">Lanzamiento anunciado: <strong>19 de noviembre de 2026</strong></p>
+			<p class="timezone-note">Cuenta hasta las 00:00 de Nueva York. La hora oficial de lanzamiento no ha sido anunciada.</p>
+			<p class="available-message" id="available-message" role="status" hidden>GTA VI ya está disponible. Nos vemos en Vice City.</p>
+		</section>
+		<footer class="footer">
+			<span>EL SOL SE PONE. LA HISTORIA EMPIEZA.</span>
+			<span class="disclaimer">Proyecto de fans, no afiliado ni asociado con Rockstar Games.</span>
+		</footer>
+	</main>
+</body>
+</html>
